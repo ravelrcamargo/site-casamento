@@ -157,7 +157,7 @@ section > p{
 
 section.paralax{
     position: relative;
-    background: black  url("../imagens/vila-denonni.jpg") right top no-repeat fixed;
+    background: black  url("../imagens/vila-denonni.jpg") right top no-repeat /*fixed */;
     background-size: cover;
     border: 1px solid black;
      /*background-attachment: fixed;*/
