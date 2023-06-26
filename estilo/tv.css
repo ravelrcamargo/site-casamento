@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+
+
+span#burguer{
+    display: none;
+}
+
+/*copiei do mobile essa css abaixo*/
+
+
+html, body{
+   
+    background-color: var(--color1);  
+    min-height: 100vh;
+    min-width: 1200px;
+    overflow-y: none; /*tira a barra de rolagem no eixo y*/
+}
+header{
+    display: block;
+   /* position: fixed; n funciona ainda*/
+    background-image: linear-gradient(to right, #F2E8D5, #A67051);
+    height: 110px;  
+    width: 100%; 
+}
+
+ header > h1{
+    font-family: var(--fonte-destaque);
+    font-size: 4em;
+   /* text-shadow: 0px 0px 0px black;*/
+    padding: 20px 0px 0px 30px;
+    max-width: 500px;
+    display: inline-block;   
+}
+
+span#burguer{
+    display: none; /*sumi com o menuzinho*/
+    position: relative;
+   padding: 24px 30px 0px 0px; 
+    font-size: 40px;
+    float: right;
+     
+
+}
+
+span#burguer:hover{
+   color: white;
+}
+
+nav{ 
+    font-size: 1.2em;
+    text-align: right;
+    padding: 40px 40px 10px 0px;
+    float: right;
+    display: block;   
+}
+
+nav > a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;     
+}
+
+nav > a:hover{   
+    color: #F2E8D5;
+    border-bottom: 1px solid black;
+}
+
+main{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+main h1{
+    font-family: var(--fonte-RoyalWedding);
+    text-align: center;
+    font-weight: 500;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    font-size: 3em;   
+    line-height: 50px;
+    
+}
+
+section.img1{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.486);
+    background: black url('../imagens/restaurante\ italy.jpeg') no-repeat left center;
+    background-size: cover;
+    /*background-position: left bottom;*/
+    height: 100vh; 
+    border: 1px solid black;
+    
+    
+
+}
+
+img.img2{
+    min-width: 300px;
+    max-width: 500px;
+    height: 90vh;
+    position: relative;
+    background-color: #f2e8d57a;
+    margin: auto;
+    display: none;   
+    
+}
+img.img3{
+    display: block;
+    min-width: 300px;
+    max-width: 800px;
+    height: 100vh;
+    
+    position: relative;
+   /* background-color: #f2e8d57a; */
+    margin: auto;
+}
+h2.largada{
+    padding: 50px 0px 50px 20px;
+    font-size: 1.5em;
+}
+
+section.paragrafo{
+    max-width: 800px;
+    color: rgb(77, 75, 75);
+    margin: auto;
+    line-height: 25px;
+    font-size: 1.2em;
+}
+section > p{
+    padding: 0px 0px 20px 20px;
+    font-size: 1.1em;
+}
+
+section.paralax{
+    background: black  url("../imagens/vila-denonni.jpg") center center no-repeat fixed;
+    background-size: cover;
+    border: 1px solid black;
+     /*background-attachment: fixed;*/
+    height: 100vh;
+}
+
+h2#local{
+    text-align: center;
+    font-family: var(--fonte-RoyalWedding);
+    font-weight: 100;
+    font-size: 7em;
+    padding-bottom: 50px;
+}
+
+h3#villa{
+    text-align: center;
+    color: rgb(77, 75, 75);
+    font-family: var(--fonte-destaque);
+    line-height: 30px;
+    padding-bottom: 15px;
+    
+}
+p#convidados{
+    font-size: 1.1em;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(77, 75, 75);
+    padding-bottom: 20px;
+}
+iframe{   
+   width: 70vw;
+   height: 470px;
+    
+    
+}
+div#mapa{
+   text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+    
+}
+footer{
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: rgb(27, 26, 26);
+    background-color: rgba(92, 87, 87, 0.397);
+}
