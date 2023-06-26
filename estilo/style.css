@@ -124,7 +124,7 @@ section.img1{
 }
 
 img.img2{
-    
+
     height: 80vh;
     position: relative;
     background-color: #f2e8d57a;
@@ -152,7 +152,7 @@ section.paragrafo{
     font-size: 1.2em;
 }
 section > p{
-    padding: 0px 0px 20px 20px;
+    padding: 0px 20px 0px 20px;
     font-size: 1em;
 }
 
@@ -190,9 +190,9 @@ p#convidados{
     padding-bottom: 20px;
 }
 iframe{   
-    min-width: 300px;
-    max-width: 450px;
-    max-height: 300px;
+    
+    max-width: 300px;
+    max-height: 200px;
     
     
 }
