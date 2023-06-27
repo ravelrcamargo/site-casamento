@@ -125,7 +125,7 @@ section.img1{
 
 img.img2{
 
-    height: 80vh;
+    height: 78vh;
     position: relative;
     background-color: #f2e8d57a;
     margin: auto;
@@ -192,7 +192,7 @@ p#convidados{
 }
 iframe{   
     
-    max-width: 300px;
+    max-width: 320px;
     max-height: 200px;
     
     

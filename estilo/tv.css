@@ -51,6 +51,9 @@ html, body{
 }
 header{
     display: block;
+   /* position: fixed;
+    top: 0;
+    left: 0;*/
    /* position: fixed; n funciona ainda*/
     background-image: linear-gradient(to right, #F2E8D5, #A67051);
     height: 110px;  
